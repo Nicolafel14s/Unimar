@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha a Sala</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pag2.css">
+</head>
+<body>
+      <header>
+            <nav class="navbar">
+               <img  class = "logo" src="img/logo.svg" alt="">
+            </nav>
+      </header>
+        <div class="container">
+               <div class="titulo2">
+                  <h1>Veja um laboratório disponivel</h1>
+               </div>
+               <div class="imagens">
+                     <button onclick="selecionar_imagem1()"><img id='id1' src="img/images.jpg" alt=""></button>
+                     <button onclick="selecionar_imagem2()"><img id='id2' src="img/images2.jpg" alt=""></button>
+                     <button  onclick="selecionar_imagem3()"><img id='id3' src="img/images3.jpg" alt=""></button>
+                  <button onclick="selecionar_imagem4()"><img id='id4' src="img/images4.jpg" alt=""></button>
+                  <button onclick="selecionar_imagem5()"><img id='id5' src="img/foto_p2_parque-tec-unimar-1-scaled.jpg" alt=""></button>
+                  <button onclick="selecionar_imagem6()"><img id='id6' src="img/Inovatech-Laboratorio-scaled.jpg" alt=""></button>
+               </div>
+               <div class="box">  
+                  <br>
+               <center>
+                  <button class= botao>  
+                     <a href="index.html">Confirmar</a>
+                  </button>
+               </center>
+       </div> 
+       <div class="container2">
+               <div class="titulo">
+                  <h2>Selecione um Turno</h2>
+               </div>
+               <div class="formulario">
+               <select name="Horario" id="Horario" required>
+                  <option value="Horario">Manhã</option>
+                  <option value="Horario">Tarde</option>
+                  <option value="Horario">Noie</option>
+               </select>
+               </div>  
+               <div class="titulo3">
+                  <h2 class="time">Tempo de uso</h2>
+                  <div class="formulario">
+                     <select name="Horas" id="Hora" class="hor"> 
+                        <option value="Horas">2 Horas</option>
+                        <option value="Horas">3 Horas</option>
+                        <option value="Horas">4 Horas</option>
+                        <option value="Horas">5 Horas</option>
+                     </select> 
+                  </div>
+               </div> 
+       </div>          
+       <script src="main.js"></script>
+</body>
+</html>

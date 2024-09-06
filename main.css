@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(img/foto_p2_parque-tec-unimar-1-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+header{
+    background-color: #0072BC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 11vh;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+header .navbar .nav-list li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}                             
+.logo{
+    height: 30px;
+    width: 300vh;
+}                 
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}     
+
+h1 {
+    text-align: center;
+    margin: 16px;
+}
+
+form {
+    border-radius: 30px;
+    width: 60vh;
+    height: 50vh;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0072BC;
+    font-size: large;
+    
+    & label {
+        color: white;
+        margin-left: 8vh;
+    }
+
+    & a {
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    p {
+        font-size: 24px;
+    }
+
+    & input, select{
+        margin: 0 auto;
+        font-size: medium;
+        width: 45vh;
+        height: 3vh;
+        padding: 8px;
+    }
+
+    
+
+    & button {
+        margin: 16px auto;
+        border-radius: 50vh;
+        width: 20vh;
+        height: 5vh;
+        background-color: #ffffff;
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    & button:hover {
+        background-color: #ffffffec;
+        transition: all ease 0.5s;
+    }
+}
